@@ -22,17 +22,17 @@
 
 @font-face {
     font-family: Nissma;
-    src: url(/fonts/NissmaStandard-Regular.otf);
+    src: url(/tower-of-hanoi/fonts/NissmaStandard-Regular.otf);
 }
 
 @font-face {
     font-family: 'Montserrat Alternates';
-    src: url(/fonts/MontserratAlternates-Regular.otf);
+    src: url(/tower-of-hanoi/fonts/MontserratAlternates-Regular.otf);
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(/fonts/Montserrat-Regular.ttf);
+    src: url(/tower-of-hanoi/fonts/Montserrat-Regular.ttf);
 }
 
 body {
