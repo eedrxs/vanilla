@@ -2,10 +2,10 @@
 
 let n, grid, counter = 0;
 let tablenum = 0;
-let survialImg = '<img src="/test2/images/survival.svg"">';
-let birthImg = '<img src="/test2/images/birth.svg"">';
-let isolationImg = '<img src="/test2/images/isolation.svg"">';
-let suffocationImg = '<img src="/test2/images/suffocation.svg"">';
+let survialImg = '<img src="/game-of-life/images/survival.svg"">';
+let birthImg = '<img src="/game-of-life/images/birth.svg"">';
+let isolationImg = '<img src="/game-of-life/images/isolation.svg"">';
+let suffocationImg = '<img src="/game-of-life/images/suffocation.svg"">';
 
 
 
