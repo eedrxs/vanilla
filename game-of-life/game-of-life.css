@@ -22,17 +22,17 @@
 
 @font-face {
     font-family: Nissma;
-    src: url(/test/fonts/NissmaStandard-Regular.otf);
+    src: url(/game-of-life/fonts/NissmaStandard-Regular.otf);
 }
 
 @font-face {
     font-family: 'Montserrat Alternates';
-    src: url(/test/fonts/MontserratAlternates-Regular.otf);
+    src: url(/game-of-life/fonts/MontserratAlternates-Regular.otf);
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(/test/fonts/Montserrat-Regular.ttf);
+    src: url(/game-of-life/fonts/Montserrat-Regular.ttf);
 }
 
 body {
