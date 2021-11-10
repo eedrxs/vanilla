@@ -46,22 +46,28 @@ body {
 /* Title div */
 
 #title-div {
-    width: 29em;
-    margin: auto;
+  /*  width: 29em; */
+ /*   margin: auto; */
     margin-top: 30px;
+    text-align: center;
 }
 
-#title-div h1 {
+#title-div > h1 {
+    display: inline-block;
     font-family: Nissma;
     font-size: 4.1em;
     color: var(--yellow);
 }
 
-#title-div p {
+#title-div > h1::after {
+    content: attr(creator);
+    position: absolute;
+    top: 100%;
+    right: 0;
     font-family: Montserrat;
     font-size: 1.5em;
-    text-align: right;
-    right: 14px;
+  /*  text-align: right;
+    right: 14px; */
     padding-bottom: 20px;
 }
 
