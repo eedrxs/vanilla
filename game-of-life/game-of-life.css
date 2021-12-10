@@ -200,6 +200,7 @@ hr {
     }
     
     
+    table {max-width: 80%;}
     
     table#grid { margin-bottom: 100px; }
     
