@@ -6,6 +6,7 @@ let survialImg = '<img src="/game-of-life/images/survival.svg"">';
 let birthImg = '<img src="/game-of-life/images/birth.svg"">';
 let isolationImg = '<img src="/game-of-life/images/isolation.svg"">';
 let suffocationImg = '<img src="/game-of-life/images/suffocation.svg"">';
+let iterationLabelStyle = '"margin: -5px 0 10px 18px; font-size: 0.8em; color: var(--dim-white);"';
 
 
 
@@ -209,7 +210,7 @@ function gameOfLife(iteration) {
     let tableA = makeGrid(grid.length, `${tablenum}a`);
     let tableB = makeGrid(grid.length, `${tablenum}b`);
 
-    document.body.insertAdjacentHTML('beforeend', `<p style="margin: -5px 0 10px 18px; font-size: 0.8em; color: var(--dim-white);">Iteration ${++counter}</p>`);
+    document.body.insertAdjacentHTML('beforeend', `<p style=${iterationLabelStyle}>Iteration ${++counter}</p>`);
 
     document.body.append(tableA);
     reflectFate(`${tablenum}a`);
