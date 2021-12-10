@@ -176,3 +176,7 @@ hr {
     background-color: hsl(208, 99%, 54%);
     transform: scale(0.95,0.95);
 }
+
+@media only screen and (min-width: 1000px) {
+    .title > h1 {font-size: 3em;}
+}    
