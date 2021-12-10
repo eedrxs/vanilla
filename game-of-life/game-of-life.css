@@ -126,7 +126,7 @@ body {
 table {
     border-collapse: collapse;
     margin: auto;
-    width: 90%;
+    max-width: 90%;
     height: 310px;
     margin-bottom: 40px;
     border: 1px solid var(--dim-white);
