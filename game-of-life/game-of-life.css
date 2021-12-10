@@ -127,7 +127,7 @@ table {
     border-collapse: collapse;
     margin: auto;
     max-width: 90%;
-    height: 310px;
+/*     height: 310px; */
     margin-bottom: 40px;
     border: 1px solid var(--dim-white);
     text-align: center;
